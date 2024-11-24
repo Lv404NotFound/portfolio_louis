@@ -4,20 +4,20 @@
 
 body {
   color: var(--foreground);
-  background-color:#faebc8;
+  background-color: #faebc8;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .text-green {
-  color: #1F4529; 
+  color: #1F4529;
 }
 
 .hover\:bg-green-500:hover {
-  background-color: #1F4529; 
+  background-color: #1F4529;
 }
 
 .hover\:text-créme:hover {
-  color: "créme"; 
+  color: "créme";
 }
 
 .hover\:scale-110:hover {
@@ -25,12 +25,12 @@ body {
 }
 
 .number {
-  padding-top: 40px; 
-  padding-left: 30px; 
+  padding-top: 40px;
+  padding-left: 30px;
   transition: padding 0.3s;
 }
 
 .number:hover {
-  padding-top: 20px; 
+  padding-top: 20px;
   padding-left: 20px;
 }
