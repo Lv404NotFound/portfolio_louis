@@ -3,19 +3,36 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: backgroundWhite;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-green {
+  color: #1F4529; 
+}
+
+.hover\:bg-green-500:hover {
+  background-color: #1F4529; 
+}
+
+.hover\:text-white:hover {
+  color: white;
+}
+
+.hover\:scale-110:hover {
+  transform: scale(1.10);
+}
+
+.number-container:hover .number {
+  padding-top: 50px; 
+  padding-bottom: 20px; 
+  padding-left: 30px; 
+  padding-right: 10px;
+  transition: 0.3; 
+  
 }
