@@ -2,13 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: backgroundWhite;
-}
-
 body {
   color: var(--foreground);
-  background: var(--background);
+  background-color:#faebc8;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -20,19 +16,21 @@ body {
   background-color: #1F4529; 
 }
 
-.hover\:text-white:hover {
-  color: white;
+.hover\:text-créme:hover {
+  color: "créme"; 
 }
 
 .hover\:scale-110:hover {
   transform: scale(1.10);
 }
 
-.number-container:hover .number {
-  padding-top: 50px; 
-  padding-bottom: 20px; 
+.number {
+  padding-top: 40px; 
   padding-left: 30px; 
-  padding-right: 10px;
-  transition: 0.3; 
-  
+  transition: padding 0.3s;
+}
+
+.number:hover {
+  padding-top: 20px; 
+  padding-left: 20px;
 }
